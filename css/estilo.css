@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 100px;
+    width: 150px;
+}
+
+#navegacao {
+    margin-left: auto;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.item-menu {
+    display: inline-block;
+}
+
+.item-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav img {
+    display: inline-block;
+}
+
+.container-categoria {
+    float: left;
+    width: 150px;
+    margin-left: 20px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0,0,0, 0.3);
+    border-radius: 5px;
+}
+
+.lista-categorias {
+    list-style: none;
+}
+
+footer  {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produtos {
+    width: 600px;
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+
+.produto {
+    width: 150px;
+}
+
+.produto img {
+    width: 100px;
+}
+
+.produto figcaption {
+    width: 100px
+}
+
+.formulario-contato{
+    margin-top: 30px;
+    display: inline-block;
+    width: 250px;
+    margin-left: 25px;
+}
+
+.formulario-grupo {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.formulario-contato label {
+    margin-right: 25px;
+    font-size: 14pt;
+}
+
+.formulario-contato input {
+    height: 30px;
+    font-size: 12pt;
+}
+
+.formulario-contato textarea {
+    height: 100px;
+    font-size: 12pt;
+}
+
+.legenda {
+    visibility: hidden;
+}
