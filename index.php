@@ -15,27 +15,15 @@
                 <a href="./index.html">Página Inicial</a>
             </li>
             <li class="item-menu">
-                <a href="./produtos.html">Produtos</a>
+                <a href="./php/produtos.php">Produtos</a>
             </li>
             <li class="item-menu">
-                <a href="./contato.html">Contato</a>
+                <a href="./php/contato.php">Contato</a>
             </li>
         </ul>
     </nav>
     <!-- Fim do menu -->
-
-    <form class="formulario-contato">
-        <div class="formulario-grupo">
-            <label>Nome: </label>
-            <input type="text">
-        </div>
-        <div class="formulario-grupo">
-            <label>Mensagem: </label>
-            <textarea></textarea>
-        </div>
-        <input type="submit" value="Enviar">
-    </form>
-    
+    <p>Aqui você os melhores preços.</p>
     <footer>
         <p>Todos os direitos reservados &copy 2020</p>
     </footer>

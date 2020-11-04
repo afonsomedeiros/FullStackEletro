@@ -101,5 +101,13 @@ footer p {
 }
 
 .legenda {
-    visibility: hidden;
+    visibility: initial;
+}
+
+.form-pedidos {
+    margin-left: 20px;
+}
+
+.form-pedidos label{
+    display: flex;
 }

@@ -1,3 +1,5 @@
+/*
+
 function visualiza_info(figure){
     let legenda = figure.getElementsByClassName("legenda")[0];
     legenda.style.visibility = "initial";
@@ -22,3 +24,4 @@ function aumenta_menu(a) {
 function diminui_menu(a) {
     a.style.fontSize = "initial";
 }
+*/
