@@ -24,22 +24,23 @@ export default function PagePedidos() {
         const preco_final = parseFloat(form.valor) * parseFloat(form.quantidade);
         document.getElementById("preco_final").value = `R$ ${preco_final}`;
 
-        const json = JSON.stringify(form);
+        setForm({
+            ...form,
+            preco_final: preco_final
+        })
 
+        const json = JSON.stringify(form);
         const opcoes = {
             crossDomain: true,
             mode: 'cors',
             method: 'POST',
             headers: {
-                'Content-type': 'application/json',
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Methods': 'GET,POST,OPTIONS,DELETE,PUT',
-                'Access-Control-Allow-Headers': 'Content-Type'
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
             },
             body: json
         }
-
-        const resposta = await fetch("http://localhost/Projetos/fullstackeletro/php/api/cadastro_produtos.php", opcoes);
+        const resposta = await fetch("http://localhost:80/produtos.php", opcoes);
         const dados = await resposta.json()
         console.log(dados);
     }
