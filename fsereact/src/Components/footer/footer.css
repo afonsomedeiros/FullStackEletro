@@ -1,5 +1,5 @@
 footer {
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    width: 100vw;
+    text-align: center;
 }
