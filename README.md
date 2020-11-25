@@ -10,9 +10,9 @@ Projeto criado com PHP, MySQL.
 
 Sirva o os recursos da pasta FullstackEletro com PHP:
 
-´´´sh
+```sh
 php -S localhost:8000
-´´´
+```
 
 Ou copie o diretório para a pasta WWW do WAMP.
 
