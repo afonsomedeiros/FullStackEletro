@@ -7,7 +7,9 @@
     //echo json_encode($arr);
     $inputJSON = file_get_contents('php://input');
     $input= json_decode( $inputJSON ); 
-    var_dump($input);
+
+    $arr = array("msg": "Funcionando");
+    echo json_encode($arr);
 
 
 ?>
